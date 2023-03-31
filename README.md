@@ -7,7 +7,7 @@ wildnetR is an R package that provides functions for downloading and processing 
 You can install wildnetR from GitHub using the devtools package:
 
 ```r
-devtools::install_github("your_username/wildnetR")
+devtools::install_github("IREC-CSIC-UCLM/wildnetR ")
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ First, load the package:
 library(wildnetR)
 ```
 
-To get a list of the species and years available in the WildNet database, use the list_species_years() function:
+To get a list of the species and years available in the ENETWILD database, use the list_species_years() function:
 
 ```r
 list_species_years()

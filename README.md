@@ -7,7 +7,7 @@ wildnetR is an R package that provides functions for downloading and processing 
 You can install wildnetR from GitHub using the devtools package:
 
 ```r
-devtools::install_github("IREC-CSIC-UCLM/wildnetR ")
+devtools::install_github("IREC-CSIC-UCLM/wildnetR")
 ```
 
 ## Usage

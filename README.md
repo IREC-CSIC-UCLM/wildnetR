@@ -21,13 +21,13 @@ library(wildnetR)
 To get a list of the species and years available in the ENETWILD database, use the list_species_years() function:
 
 ```r
-list_species_years()
+list_enetwild_data()
 ```
 
 To load the data for a specific species and year, use the load_species_data() function:
 
 ```r
-data <- load_species_data(species = "Sus.scrofa", year = 2015)
+data <- load_enetwild_data(species = "Sus.scrofa", year = 2015)
 ```
 
 The data will be returned as a data.frame object with WKT column

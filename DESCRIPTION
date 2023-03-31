@@ -1,0 +1,12 @@
+Package: wildnetR
+Title:  R package for downloading data from the ENETWILD database
+Version: 0.1.0
+Authors@R: 
+    person("Sergio", "López", , "sergio.lopez@uclm.es", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9663-4758", github = "shevelp"))
+Description: This R package provides functions to download data from the ENETWILD database, which includes information about various species and their population dynamics.The package includes functions to download data for specific species and years, and to clean and process the data for analysis.
+BugReports: https://github.com/National-Institute-of-Wildlife-Research/wildnetR/issues
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
